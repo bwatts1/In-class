@@ -1,30 +1,30 @@
-body{
+body {
     background: linear-gradient(to bottom, rgb(32, 3, 56), rgb(0, 9, 76));
-    height: 109vh;
+    height: 100vh;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-main center{
+main center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.Tower img{
+.Tower img {
     object-fit: cover;
 }
 
-.shooter img{
+.shooter img {
     z-index: 1;
     position: absolute;
     top: 1px;
@@ -33,7 +33,7 @@ main center{
     transform: translate(0, 0);
 }
 
-.balloon img{
+.balloon img {
     z-index: 2;
     position: absolute;
     top: 30px;
@@ -42,7 +42,7 @@ main center{
     transform: translate(0, 0);
 }
 
-.building img{
+.building img {
     z-index: 3;
     position: absolute;
     bottom: 0px;
@@ -52,7 +52,7 @@ main center{
     margin-top: 10px;
 }
 
-.lamp img{
+.lamp img {
     z-index: 10;
     position: absolute;
     bottom: 0px;
@@ -65,7 +65,7 @@ main center{
 .road img{
     z-index: 4;
     position: absolute;
-    bottom: -132.4px;
+    bottom: -290px;
     left: 50%;
     width: 100%;
     transform: translateX(-50%);
@@ -74,7 +74,7 @@ main center{
 .people img{
     z-index: 10;
     position: absolute;
-    bottom: -60px;
+    bottom: -130px;
     left: 40%;
     width: 100%;
     transform: translateX(-50%);
@@ -90,16 +90,7 @@ main center{
     margin-top: 10px;
     filter: brightness(2.8);
 }
-.grass img{
-    z-index: 10;
-    position: absolute;
-    bottom: -130px;
-    left: 50%;
-    width: 100%;
-    height: 80px;
-    transform: translateX(-50%);
-    margin-top: 10px;
-}
+
 .heart{
     position: absolute;
     top: 0;
@@ -109,7 +100,6 @@ main center{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.5);
+
     z-index: 100;
-    display: none;
 }
